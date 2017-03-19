@@ -115,5 +115,5 @@ def SaveMsg(msg):
         ClearTimeOutMsg()
 
 if __name__ == '__main__':
-    itchat.auto_login(hotReload=True)
+    itchat.auto_login(hotReload=True, enableCmdQR=1)
     itchat.run()
